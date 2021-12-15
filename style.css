@@ -1,0 +1,26 @@
+/* reset */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 6px;
+}
+
+.container {
+  max-width: 700px;
+  height: 50px;
+  background-color: rgb(161, 57, 161);
+}
+
+.middle {
+  min-height: 170px;
+}
+
+.big {
+  background-color: rgb(161, 57, 161);
+}
+
+.middle {
+  background-color: sandybrown;
+}

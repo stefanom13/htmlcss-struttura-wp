@@ -14,11 +14,6 @@ img {
   clear: both;
 }
 
-.debug {
-  border: 1px solid red;
-  border-radius: 7px;
-}
-
 /* body */
 .first {
   height: 80px;
@@ -28,26 +23,23 @@ img {
   max-width: 1024px;
   margin: 0 auto;
   border-radius: 9px;
+  background-color: chocolate;
+  border-radius: 7px;
 }
 
-.row [class^="col-"] {
+.container .row [class^="col-"] {
   padding: 20px;
   float: left;
   border: 2px solid brown;
 }
 
-.debug header .container {
-  background-color: chocolate;
-}
-
-.debug #cont .container {
+#cont .container {
   min-height: 250px;
   background-color: goldenrod;
 }
 
-.debug #main-content .container {
+#main-content .container {
   min-height: 500px;
-  /* background-color: indigo; */
 }
 
 .debug .container {
@@ -60,14 +52,12 @@ img {
 }
 
 .debug .row {
-  border: 2px solid red;
   padding: 20px;
 }
 
 /* main */
 
 .debug .row [class^="col-"] {
-  border: 2px solid brown;
   padding: 20px;
 }
 
@@ -79,7 +69,17 @@ img {
   width: 25%;
 }
 
-.col-12{
-        width: 100%;
-    }
+.col-4 {
+  width: 100%;
+}
+
+.last {
+  width: 100%;
+}
+
+.modulo {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: chartreuse;
+  margin: 2px;
 }

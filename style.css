@@ -2,48 +2,84 @@
 
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0 auto;
-  margin-top: 6px;
+  padding: 2px;
 }
 
+img {
+  max-width: 100%;
+}
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
 }
 
-.container {
-  max-width: 700px;
+.debug {
+  border: 1px solid red;
+  border-radius: 7px;
+}
 
-  background-color: rgb(161, 57, 161);
+/* body */
+.first {
+  height: 80px;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  border-radius: 9px;
+}
+
+.row [class^="col-"] {
+  padding: 20px;
+  float: left;
+  border: 2px solid brown;
+}
+
+.debug header .container {
+  background-color: chocolate;
+}
+
+.debug #cont .container {
+  min-height: 250px;
+  background-color: goldenrod;
+}
+
+.debug #main-content .container {
+  min-height: 500px;
+  /* background-color: indigo; */
+}
+
+.debug .container {
+  border: 2px solid green;
+}
+
+.debug .section {
+  border: 2px solid;
+  padding: 20px 20px;
+}
+
+.debug .row {
+  border: 2px solid red;
+  padding: 20px;
 }
 
 /* main */
 
-.middle {
-  min-height: 170px;
-  background-color: rgb(226, 205, 14);
+.debug .row [class^="col-"] {
+  border: 2px solid brown;
+  padding: 20px;
 }
 
-.big {
-  background-color: rgb(161, 57, 161);
-  height: 100px;
+.col-2 {
+  width: 50%;
 }
 
-.task {
-  padding: 10px;
+.col-1 {
+  width: 25%;
 }
 
-.part {
-  display: inline-block;
-  height: 200px;
-  width: 24%;
-  background-color: steelblue;
-  float: left;
-  margin-right: 5px;
-}
-
-.last {
-  height: 20px;
+.col-12{
+        width: 100%;
+    }
 }
